@@ -8,13 +8,38 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
+
+  noStroke()
  
   background(255,255,255,0);
 
-    //note
-    fill (0,0,0);
-    ellipse (100,100,100,10);
-  
+    //body parts
+    fill (129,133,129);
+    ellipse (280, 289, 40, 45);
+    ellipse (240, 289, 40, 45);
+    ellipse (350, 294, 40, 45);
+    ellipse (404, 294, 40, 45);
+
+    //poptart
+    fill (246,196,157);
+    rect (217, 144, 210, 150,);
+    fill (255,177,221);
+    rect (246, 173, 158, 104);
+
+    // sprinkles
+    fill (254,119,255);
+    ellipse (272, 196, 5, 5);
+    ellipse (264, 233, 5, 5);
+    ellipse (284, 211, 5, 5);
+    ellipse (292, 241, 5, 5);
+    ellipse (261, 271, 5, 5);
+    ellipse (276, 266, 5, 5);
+    ellipse (328, 229, 5, 5);
+    ellipse (316, 213, 5, 5);
+    ellipse (356, 194, 5, 5);
+    ellipse (370, 199, 5, 5);
+
+   
 
 
 
