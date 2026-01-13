@@ -13,12 +13,15 @@ draw = function(){
  
   background(255,255,255,0);
 
-    //body parts
+    //legs
     fill (129,133,129);
     ellipse (280, 289, 40, 45);
     ellipse (240, 289, 40, 45);
     ellipse (350, 294, 40, 45);
     ellipse (404, 294, 40, 45);
+
+    //tail
+    ellipse (217, 260, 150, 25);
 
     //poptart
     fill (246,196,157);
@@ -34,10 +37,33 @@ draw = function(){
     ellipse (292, 241, 5, 5);
     ellipse (261, 271, 5, 5);
     ellipse (276, 266, 5, 5);
-    ellipse (328, 229, 5, 5);
     ellipse (316, 213, 5, 5);
-    ellipse (356, 194, 5, 5);
-    ellipse (370, 199, 5, 5);
+    ellipse (307, 188, 5, 5);
+    ellipse (314, 263, 5, 5);
+    
+    //head
+    fill (129,133,129);
+    ellipse (388, 235, 120, 100);
+
+
+    //blush
+    fill (251,155,227);
+    ellipse (353, 255, 25, 25);
+    ellipse (424, 256, 25, 25);
+
+    //face
+    fill (0,0,0);
+    ellipse (363, 226, 15, 15);
+    ellipse (418, 226, 15, 15);
+    ellipse (398, 239, 8, 8);
+    
+    fill (255, 255, 255);
+    ellipse (360, 222, 8, 8);
+    ellipse (415, 222, 8, 8);
+
+    //ears
+
+
 
    
 
