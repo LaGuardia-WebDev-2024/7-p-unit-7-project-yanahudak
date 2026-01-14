@@ -68,16 +68,8 @@ draw = function(){
     triangle (343,200, 368, 185, 341, 167);
     triangle (404, 185, 430, 200, 424, 170);
 
-    
-
-    
-
-
-
-   
-
-
-
+    x = mouseX;
+    y = mouseY;
 
   //Show x y values when mousepressed
   if(mousePressed){showXYPositions();}
