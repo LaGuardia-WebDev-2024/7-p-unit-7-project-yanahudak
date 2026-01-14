@@ -9,9 +9,10 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
 
-  noStroke()
+  
  
   background(255,255,255,0);
+  
 
     //legs
     fill (129,133,129);
@@ -56,12 +57,20 @@ draw = function(){
     ellipse (363, 226, 15, 15);
     ellipse (418, 226, 15, 15);
     ellipse (398, 239, 8, 8);
-    
+    line (376, 255, 408, 255);
+
     fill (255, 255, 255);
     ellipse (360, 222, 8, 8);
     ellipse (415, 222, 8, 8);
 
     //ears
+    fill (129,133,129);
+    triangle (343,200, 368, 185, 341, 167);
+    triangle (404, 185, 430, 200, 424, 170);
+
+    
+
+    
 
 
 
