@@ -65,8 +65,8 @@ draw = function(){
 
     //ears
     fill (129,133,129);
-    triangle (kittyX + 243, kittyY + 100, 368, 185, 341, 167);
-    triangle (kittyX + 304, kittyY + 85, 430, 200, 424, 170);
+    triangle (kittyX + 243, kittyY + 100, kittyX + 268, kittyY + 85, kittyX + 241, kittyY + 67);
+    triangle (kittyX + 304, kittyY + 85, kittyX + 330, kittyY + 100, kittyX + 324, kittyY + 70);
 
     kittyX = mouseX;
     kittyY = mouseY;
