@@ -4,13 +4,13 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+  var X= 100;
+  var Y= 100;
+  var IDK= 100;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
 
-  
- 
   background(255,255,255,0);
   
 
