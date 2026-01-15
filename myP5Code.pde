@@ -16,60 +16,60 @@ draw = function(){
 
     //legs
     fill (129,133,129);
-    ellipse (kittyX + 180, 289, 40, 45);
-    ellipse (kittyX + 140, 289, 40, 45);
-    ellipse (kittyX + 250, 294, 40, 45);
-    ellipse (kittyX + 304, 294, 40, 45);
+    ellipse (kittyX + 180, kittyY + 189, 40, 45);
+    ellipse (kittyX + 140, kittyY + 189, 40, 45);
+    ellipse (kittyX + 250, kittyY + 194, 40, 45);
+    ellipse (kittyX + 304, kittyY + 194, 40, 45);
 
     //tail
-    ellipse (kittyX + 117, 260, 150, 25);
+    ellipse (kittyX + 117, kittyY + 160, 150, 25);
 
     //poptart
     fill (246,196,157);
-    rect (kittyX + 117, 144, 210, 150,);
+    rect (kittyX + 117, kittyY + 44, 210, 150,);
     fill (255,177,221);
-    rect (kittyX + 146, 173, 158, 104);
+    rect (kittyX + 146, kittyY + 73, 158, 104);
 
     // sprinkles
     fill (254,119,255);
-    ellipse (kittyX + 172, 196, 5, 5);
-    ellipse (kittyX + 164, 233, 5, 5);
-    ellipse (kittyX + 184, 211, 5, 5);
-    ellipse (kittyX + 192, 241, 5, 5);
-    ellipse (kittyX + 161, 271, 5, 5);
-    ellipse (kittyX + 176, 266, 5, 5);
-    ellipse (kittyX + 216, 213, 5, 5);
-    ellipse (kittyX + 207, 188, 5, 5);
-    ellipse (kittyX + 214, 263, 5, 5);
+    ellipse (kittyX + 172, kittyY + 96, 5, 5);
+    ellipse (kittyX + 164, kittyY + 133, 5, 5);
+    ellipse (kittyX + 184, kittyY + 111, 5, 5);
+    ellipse (kittyX + 192, kittyY + 141, 5, 5);
+    ellipse (kittyX + 161, kittyY + 171, 5, 5);
+    ellipse (kittyX + 176, kittyY + 166, 5, 5);
+    ellipse (kittyX + 216, kittyY + 113, 5, 5);
+    ellipse (kittyX + 207, kittyY + 88, 5, 5);
+    ellipse (kittyX + 214, kittyY + 163, 5, 5);
     
     //head
     fill (129,133,129);
-    ellipse (388, 235, 120, 100);
+    ellipse (kittyX + 288, kittyY + 135, 120, 100);
 
 
     //blush
     fill (251,155,227);
-    ellipse (353, 255, 25, 25);
-    ellipse (424, 256, 25, 25);
+    ellipse (kittyX + 253, kittyY + 155, 25, 25);
+    ellipse (kittyX + 324, kittyY + 156, 25, 25);
 
     //face
     fill (0,0,0);
-    ellipse (363, 226, 15, 15);
-    ellipse (418, 226, 15, 15);
-    ellipse (398, 239, 8, 8);
-    line (376, 255, 408, 255);
+    ellipse (kittyX + 263, kittyY + 126, 15, 15);
+    ellipse (kittyX + 318, kittyY + 126, 15, 15);
+    ellipse (kittyX + 298, kittyY + 139, 8, 8);
+    line (kittyX + 276, kittyY + 155, kittyX + 308, kittyY + 155);
 
     fill (255, 255, 255);
-    ellipse (360, 222, 8, 8);
-    ellipse (415, 222, 8, 8);
+    ellipse (kittyX + 260, kittyY + 122, 8, 8);
+    ellipse (kittyX + 315, kittyY + 122, 8, 8);
 
     //ears
     fill (129,133,129);
-    triangle (343,200, 368, 185, 341, 167);
-    triangle (404, 185, 430, 200, 424, 170);
+    triangle (kittyX + 243, kittyY + 100, 368, 185, 341, 167);
+    triangle (kittyX + 304, kittyY + 85, 430, 200, 424, 170);
 
-    x = mouseX;
-    y = mouseY;
+    kittyX = mouseX;
+    kittyY = mouseY;
 
   //Show x y values when mousepressed
   if(mousePressed){showXYPositions();}
