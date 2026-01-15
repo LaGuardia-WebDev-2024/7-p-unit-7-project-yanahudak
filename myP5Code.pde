@@ -6,13 +6,17 @@ void setup() {
 //🎯Variable Declarations Go Here
   var kittyX= 100;
   var kittyY= 100;
+  var moonRadius= 100;
   
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
 
   background(255,255,255,0);
-  
+
+    //Moon
+    fill (178, 190, 181);
+    ellipse (50,100,moonRadius,moonRadius);
 
     //legs
     fill (129,133,129);
@@ -70,6 +74,8 @@ draw = function(){
 
     kittyX = mouseX;
     kittyY = mouseY;
+
+    moonRadius += 2;
 
   //Show x y values when mousepressed
   if(mousePressed){showXYPositions();}
