@@ -4,9 +4,9 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-  var X= 100;
-  var Y= 100;
-  var IDK= 100;
+  var kittyX= 100;
+  var kittyY= 100;
+  
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -16,31 +16,31 @@ draw = function(){
 
     //legs
     fill (129,133,129);
-    ellipse (280, 289, 40, 45);
-    ellipse (240, 289, 40, 45);
-    ellipse (350, 294, 40, 45);
-    ellipse (404, 294, 40, 45);
+    ellipse (kittyX + 180, 289, 40, 45);
+    ellipse (kittyX + 140, 289, 40, 45);
+    ellipse (kittyX + 250, 294, 40, 45);
+    ellipse (kittyX + 304, 294, 40, 45);
 
     //tail
-    ellipse (217, 260, 150, 25);
+    ellipse (kittyX + 117, 260, 150, 25);
 
     //poptart
     fill (246,196,157);
-    rect (217, 144, 210, 150,);
+    rect (kittyX + 117, 144, 210, 150,);
     fill (255,177,221);
-    rect (246, 173, 158, 104);
+    rect (kittyX + 146, 173, 158, 104);
 
     // sprinkles
     fill (254,119,255);
-    ellipse (272, 196, 5, 5);
-    ellipse (264, 233, 5, 5);
-    ellipse (284, 211, 5, 5);
-    ellipse (292, 241, 5, 5);
-    ellipse (261, 271, 5, 5);
-    ellipse (276, 266, 5, 5);
-    ellipse (316, 213, 5, 5);
-    ellipse (307, 188, 5, 5);
-    ellipse (314, 263, 5, 5);
+    ellipse (kittyX + 172, 196, 5, 5);
+    ellipse (kittyX + 164, 233, 5, 5);
+    ellipse (kittyX + 184, 211, 5, 5);
+    ellipse (kittyX + 192, 241, 5, 5);
+    ellipse (kittyX + 161, 271, 5, 5);
+    ellipse (kittyX + 176, 266, 5, 5);
+    ellipse (kittyX + 216, 213, 5, 5);
+    ellipse (kittyX + 207, 188, 5, 5);
+    ellipse (kittyX + 214, 263, 5, 5);
     
     //head
     fill (129,133,129);
